@@ -5,6 +5,7 @@ def square_array(array)
     puts num
     while iterator < num
       array[apple] = array[apple]*num
+      iterator += 1
     end
     iterator = 0
   end
