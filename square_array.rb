@@ -1,14 +1,7 @@
 def square_array(array)
-  iterator = 0
-  arrayIterator = -1
-  array.each do |apple|
-    arrayIterator += 1
-    num = array[arrayIterator]
-    while iterator < num
-      array[apple] = array[apple] * num
-      iterator += 1
-    end
-    iterator = 0
+  newArray = []
+  array.each do|num|
+    newArray.push(num ** 2)
   end
-  return array
+  return newArray
 end
