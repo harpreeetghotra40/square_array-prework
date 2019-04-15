@@ -7,4 +7,5 @@ def square_array(array)
     end
     iterator = 0
   end
+  return array
 end
