@@ -1,8 +1,9 @@
 def square_array(array)
   iterator = 0
+  arrayIterator = -1
   array.each do |apple|
-    puts apple
-    num = array[apple]
+    arrayIterator += 1
+    num = array[arrayIterator]
     while iterator < num
       array[apple] = array[apple]*num
       iterator += 1
