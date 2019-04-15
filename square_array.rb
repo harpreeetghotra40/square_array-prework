@@ -5,7 +5,7 @@ def square_array(array)
     arrayIterator += 1
     num = array[arrayIterator]
     while iterator < num
-      array[apple] = array[apple]*num
+      array[apple] = array[apple] * num
       iterator += 1
     end
     iterator = 0
